@@ -8,6 +8,8 @@ gem install ipip-ipdb
 
 # example
 <pre>
+require "ipdb"
+
 db = IPDB.city "c:/work/ipdb/city.ipv4.ipdb"
 loc = db.find"1.1.1.1", "CN"
 puts loc
